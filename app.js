@@ -33,7 +33,7 @@ function initialize() {
 
 function retrieveContacts() {
     const xhr = new XMLHttpRequest();
-    const url = "https://github.com/Kagerou02/contact-info-mobile-web-app2/blob/main/contacts.json";
+    const url = "https://www.lcsd.gov.hk/datagovhk/facility/facility-fw.json";
 
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
